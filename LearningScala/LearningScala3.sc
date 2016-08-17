@@ -37,11 +37,6 @@ object LearningScala3 {
   // Strings have a built-in .toUpperCase method. For example, "foo".toUpperCase gives you back FOO.
   // Write a function that converts a string to upper-case, and use that function of a few test strings.
   // Then, do the same thing using a function literal instead of a separate, named function.
-  def convertToUppercase(x: String) : String = {
-    x.toUpperCase
-  }                                               //> convertToUppercase: (x: String)String
-  
-  println(convertToUppercase("haris"))            //> HARIS
-  println(convertToUppercase("beg"))              //> BEG
+  println("haris".toUpperCase)                    //> HARIS
   
 }
