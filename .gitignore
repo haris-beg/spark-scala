@@ -1,6 +1,7 @@
 *.class
 *.log
 .metadata
+ml-100k
 
 # sbt specific
 .cache
