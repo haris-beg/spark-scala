@@ -120,6 +120,14 @@ for (numbar <- listOfNumbars) {
                                                   //| 18
 }
 
+val iLoveThrees = listOfNumbars.filter(_ % 3 == 0)//> iLoveThrees  : List[Int] = List(3, 6, 9, 12, 15, 18)
+for (numbar <- iLoveThrees) {println(numbar)}     //> 3
+                                                  //| 6
+                                                  //| 9
+                                                  //| 12
+                                                  //| 15
+                                                  //| 18
+
 // That's enough for now!
 // There is MUCH more to learn about Scala. We didn't cover many other collection types, including mutable collections.
 // And we didn't even touch on object-oriented Scala. The book "Learning Scala" from O'Reilly is great if you want to
